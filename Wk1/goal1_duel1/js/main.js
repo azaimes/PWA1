@@ -23,7 +23,7 @@
     var playerTwoHealth = 100;
 
     //initiate round
-    var round=0;
+    var round = 0;
 
     function fight(){
         alert(playerOneName + ":" + playerOneHealth+"   *START*   " + playerTwoName + ":" + playerTwoHealth);
@@ -36,37 +36,37 @@
             var f2 = Math.floor(Math.random() * (player2Damage - minDamage2) + minDamage2);
 
             //inflict damage
-            playerOneHealth -= f1;
-            playerTwoHealth -= f2;
+            playerOneHealth-= f1;
+            playerTwoHealth-= f2;
 
-            console.log(playerOneName + ": " + playerOneHealth + " " + playerTwoName + ":" + playerTwoHealth);
+            console.log(playerOneName+": "+playerOneHealth+" "+playerTwoName+":"+playerTwoHealth);
 
             //check for winner
             var result = winnerCheck();
             console.log(result);
-            if (result==="no winner")
+            if (result === "No Winner")
             {
                 round++;
-                alert(playerOneName + ":" + playerOneHealth + "   *ROUND*   " + round + " OVER" + "*  " + playerTwoName + ":" + playerTwoHealth);
+                alert(playerOneName +":"+ playerOneHealth +"   *ROUND*   "+ round+" OVER"+"*  "+ playerTwoName +":"+ playerTwoHealth);
             } else{
                 alert(result);
                 break;
-            };
-        };
-    };
+            }
+        }
+    }
 
     function winnerCheck(){
         var result = "No Winner";
         if (playerOneHealth < 1 && playerTwoHealth < 1)
         {
-            result = "You Both Die!";
+            result = "You Both Die!"
         } else if(playerOneHealth < 1) {
             result = playerTwoName + " WINS!!"
         } else if(playerTwoHealth < 1) {
             result = playerOneName + " WINS!!"
-        };
+        }
         return result;
-    };
+    }
 
     /*******  The program gets started below ******/
     fight();
