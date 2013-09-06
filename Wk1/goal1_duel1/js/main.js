@@ -26,7 +26,7 @@
     var round = 0;
 
     function fight(){
-        alert(playerOneName + ":" + playerOneHealth+"   *START*   " + playerTwoName + ":" + playerTwoHealth);
+        alert(playerOneName + ": " + playerOneHealth+"   *START*   " + playerTwoName + ": " + playerTwoHealth);
         for (var i = 0; i < 10; i++)
         {
             //random formula is -- Math.floor(Math.random() * (max - min) + min);
@@ -39,7 +39,7 @@
             playerOneHealth-= f1;
             playerTwoHealth-= f2;
 
-            console.log(playerOneName+": "+playerOneHealth+" "+playerTwoName+":"+playerTwoHealth);
+            console.log(playerOneName+": "+playerOneHealth+" "+playerTwoName+": "+playerTwoHealth);
 
             //check for winner
             var result = winnerCheck();
@@ -47,7 +47,7 @@
             if (result === "No Winner")
             {
                 round++;
-                alert(playerOneName +":"+ playerOneHealth +"   *ROUND*   "+ round+" OVER"+"*  "+ playerTwoName +":"+ playerTwoHealth);
+                alert(playerOneName +": "+ playerOneHealth +"   *ROUND   "+ round+"  OVER "+" *  "+ playerTwoName +": "+ playerTwoHealth);
             } else{
                 alert(result);
                 break;
