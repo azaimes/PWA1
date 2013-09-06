@@ -15,8 +15,8 @@
     var playerTwoName = "Hulk";
 
     //damage
-    var player1Damage = 20;
-    var player2Damage = 20;
+    var player1Damage = 30;
+    var player2Damage = 30;
 
     //health
     var playerOneHealth = 100;
