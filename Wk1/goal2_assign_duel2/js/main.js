@@ -9,7 +9,7 @@
 //self-executing function
 (function(){
     console.log("FIGHT!!!");
-
+    //array ["name", player damage, player health]
     var fighter1 = ["Green Lantern", 30, 100];
     var fighter2 = ["Hulk", 30, 100];
 
