@@ -98,6 +98,12 @@
     console.log("5. how many vowels in a word");
 
         //PUT FUNCTION HERE
+    function vowelsInWord(word){
+
+        var match=word.match(/[aeiou]/g);
+        var count = match.length;
+        return count;
+    }
 
     console.log(vowelsInWord('JavaScript'));
 
