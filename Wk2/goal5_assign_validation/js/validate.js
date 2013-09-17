@@ -31,7 +31,7 @@
     var validateField = function(inputName){
 	                                                         //patterns from regexlib.com some slightly modified
         if (inputName.name === 'f_username'){
-	        var regExp = /^[A-Z]+((\s|\-)[a-zA-Z]+)?$/;    //regular expression to force user to use capital letter for first letter of first and last name
+	        var regExp = /^([A-Z]\w+\s?)*$/;    //regular expression to force user to use capital letter for first letter of first and last name
 	        }
 	    if (inputName.name === 'f_email'){
 		    var regExp = /^[\w\.=-]+@[\w\.-]+\.[\w]{2,4}$/; // pattern  to validate email and check the top level domain is between 2 and 4 characters long
@@ -40,7 +40,7 @@
 		    var regExp = /(\(\d{3}\)?)\d{3}-\d{4}/;  //requires phone to follow (xxx)xxx-xxxx format
 	    }
 	    if (inputName.name === 'f_password'){
-		    var regExp = /^[a-zA-Z][a-zA-Z0-9_]{4,15}+$/; //requires password to be between 4-15 characters long with the first character being a letter and no numbers or special characters
+		    var regExp = /^([a-zA-Z])\w{3,15}$/; //requires password to be between 4-15 characters long with the first character being a letter and no numbers or special characters
 	    }
 	    if (inputName.name === 'f_ssn'){
 		    var regExp = /^\d{3}-\d{2}-\d{4}$/; //ssn xxx-xx-xxx
@@ -61,8 +61,7 @@
         }
     };
 
-	button.onclick= myForm;
-})();  // end wrapper
-
+	button.onclick=myForm;
+})();
 
 
