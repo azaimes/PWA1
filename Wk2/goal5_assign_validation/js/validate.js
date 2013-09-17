@@ -28,17 +28,26 @@
     };
 
 
-    var validateField = function(inputData){
-
-        if (inputData.name === 'f_username'){
+    var validateField = function(inputName){
+	                                                         //patterns from regexlib.com some slightly modified
+        if (inputName.name === 'f_username'){
 	        var regExp = /^[A-Z]+((\s|\-)[a-zA-Z]+)?$/;    //regular expression to force user to use capital letter for first letter of first and last name
 	        }
-	    if (inputData.name === 'f_email'){
-		    var regExp = /^[\w\.=-]+@[\w\.-]+\.[\w]{2,4}$/; // patter from regexlib.com to validate email and check the top level domain is between 2 and 4 characters long
+	    if (inputName.name === 'f_email'){
+		    var regExp = /^[\w\.=-]+@[\w\.-]+\.[\w]{2,4}$/; // pattern  to validate email and check the top level domain is between 2 and 4 characters long
+	    }
+	    if (inputName.name === 'f_phone'){
+		    var regExp = /(\(\d{3}\)?)\d{3}-\d{4}/;  //requires phone to follow (xxx)xxx-xxxx format
+	    }
+	    if (inputName.name === 'f_password'){
+		    var regExp = /^[a-zA-Z][a-zA-Z0-9_]{4,15}+$/; //requires password to be between 4-15 characters long with the first character being a letter and no numbers or special characters
+	    }
+	    if (inputName.name === 'f_ssn'){
+		    var regExp = /^\d{3}-\d{2}-\d{4}$/; //ssn xxx-xx-xxx
 	    }
 
-        var pass = 'the RegEx .test statement is needed here';
-        var errorMsg = inputName.nextSibling.nextSibling.nextSibling.nextSibling;
+        var pass = regExp.test(inputName.value);        //test reg exp
+        var errorMsg = inputName.nextSibling.nextSibling.nextSibling.nextSibling; //determines the error message
 
         if (!pass || inputName.value.length < 2){
             errorMsg.style.display='block';
@@ -49,12 +58,10 @@
         } else {
             errorMsg.style.display='none';
             inputName.style.backgroundColor = 'white';
-        };
+        }
     };
-	function onsubmit(){
 
-	}
-	button.onclick=myForm;
+	button.onclick= myForm;
 })();  // end wrapper
 
 
