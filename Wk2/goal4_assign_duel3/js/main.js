@@ -21,7 +21,7 @@
 
 
     //initiate round
-    var round = 0;
+    var round = 1;
     document.querySelector('#kabal p').innerHTML=fighters[0].names + ': ' + fighters[0].health;
     document.querySelector('#kratos p').innerHTML=fighters[1].names + ': ' + fighters[1].health;
     document.querySelector('#round').innerHTML = "Start Round: " + round + " FIGHT";
@@ -52,45 +52,40 @@
 
             //check for winner
             var result = winnerCheck();
+            document.querySelector('.clear').innerHTML='<center><h2>' +result+ '</h2></center>';
             console.log(result);
             if (result === "No Winner")
-            {    round++;
-                document.querySelector('#round').innerHTML= "Round: "+ round++ + result;
+            {
+                document.querySelector('#round').innerHTML= "Round: "+ round++;
 
 
-            } else if(result = fighterOne+" Wins"){
+            } else
+            {
+
+                button.onclick.cancelBubble=true;
+                button.innerHTML= "RESET";
+                button.onclick= function refresh(){
+                    window.location.reload();
+                }
 
             }
         }
     }
-
     function winnerCheck(){
-         results = " No Winner";
-        console.log(results);
-        if(fighters[0].health < 1 && fighters[1].health < 1){
-            document.querySelector('#round').innerHTML = results = "You Both Die!";
-            fighters[0].health = 100;
-            fighters[1].health = 100;
-            round=0;
-            button.innerHTML = "Restart?";
+        var result = "No Winner";
+        if (fighters[0].health < 1 && fighters[1].health < 1)
+        {
+            result = "You Both Die!"
+        } else if(fighters[0].health < 1) {
+            result = fighters[1].names + " WINS!!"
+        } else if(fighters[1].health < 1) {
+            result = fighters[0].names + " WINS!!"
         }
-        else if(fighters[0].health < 1){
-            document.querySelector('#round').innerHTML = results = fighters[1].names + " IS VICTORIOUS!";
-            fighters[0].health = 100;
-            fighters[1].health = 100;
-            round=0;
-            button.innerHTML = "Try Again?";
-        }
-        else if(fighters[1].health < 1){
-            document.querySelector('#round').innerHTML = results = fighters[0].names + " IS VICTORIOUS!";
-            fighters[0].health = 100;
-            fighters[1].health = 100;
-            round=0;
-            button.innerHTML = "Restart?";
-        }
-        return results;
-
+        return result;
     }
+
+
+
 
     /*******  The program gets started below ******/
    // fight();

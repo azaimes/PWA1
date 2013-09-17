@@ -4,11 +4,13 @@
     <list default="true" id="fe9e564d-f54e-4d52-b8c5-22d41d4a6a8a" name="Default" comment="" />
     <ignored path="goal4_assign_guessing_game.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/../../Wk1/goal2_assign_duel2/.idea/workspace.xml" changelist="fe9e564d-f54e-4d52-b8c5-22d41d4a6a8a" time="1379429159466" ignored="false" />
+    <file path="$PROJECT_DIR$/../../Wk1/goal2_assign_duel2/.idea/workspace.xml" changelist="fe9e564d-f54e-4d52-b8c5-22d41d4a6a8a" time="1379429419377" ignored="false" />
     <file path="/main.js" changelist="fe9e564d-f54e-4d52-b8c5-22d41d4a6a8a" time="1379429119974" ignored="false" />
     <file path="$PROJECT_DIR$/../../../goal4_objects_DOM_events/testing/js/main2.js" changelist="fe9e564d-f54e-4d52-b8c5-22d41d4a6a8a" time="1379428937967" ignored="false" />
     <file path="$PROJECT_DIR$/../../../goal4_objects_DOM_events/testing/index2.html" changelist="fe9e564d-f54e-4d52-b8c5-22d41d4a6a8a" time="1379420854529" ignored="false" />
     <file path="/main2.js" changelist="fe9e564d-f54e-4d52-b8c5-22d41d4a6a8a" time="1379428705106" ignored="false" />
+    <file path="/Dummy.txt" changelist="fe9e564d-f54e-4d52-b8c5-22d41d4a6a8a" time="1379429286453" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal4_assign_duel3/js/main.js" changelist="fe9e564d-f54e-4d52-b8c5-22d41d4a6a8a" time="1379429413946" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +184,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1159" y="53" width="1420" height="768" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
