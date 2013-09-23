@@ -17,8 +17,11 @@
 		this.job = Person.jobs[Math.floor(Math.random() * Person.jobs.length)];
 		this.row = row;
 
-		var id = document.getElementById("r" + this.row + "c3");
-		id.innerHTML = this.action;
+
+			var id= document.getElementById("r"+this.row+"c3");
+			id.innerHTML=this.action;
+
+
 
 	};
 
@@ -31,14 +34,17 @@
 	//change actions at random
 	Person.prototype.update= function(){
 
-		if(Math.floor(Math.random() < 0.01)) {
+		if(Math.floor(Math.random() < .01)) {
 			//changes action
 			this.action = Person.actions[Math.floor(Math.random() * Person.actions.length)];
 
-			var id = document.getElementById("r" + this.row + "c3");
-			id.innerHTML=this.action;
+
+				var id = document.getElementById("r" + this.row + "c3");
+				id.innerHTML=this.action;
+
+
 		}
-	}
+	};
 
 
 
