@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" name="Default" comment="" />
+    <list default="true" id="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goal7_assign_obj_to_prototypes/js/person.js" afterPath="$PROJECT_DIR$/goal7_assign_obj_to_prototypes/js/person.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Wk3.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" time="1379957826333" ignored="false" />
+    <file path="/Dummy.txt" changelist="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" time="1379958602943" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../test wk3/js/person.js" changelist="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" time="1379885541004" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../test wk3/js/main.js" changelist="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" time="1379885464335" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../test wk3/object.html" changelist="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" time="1379885328473" ignored="false" />
     <file path="/main.js" changelist="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" time="1379958363106" ignored="false" />
+    <file path="/person.js" changelist="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" time="1379959966848" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +41,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal7_assign_obj_to_prototypes/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="977" selection-end="977" vertical-scroll-proportion="1.0117302">
+            <state line="14" column="119" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="person.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="person.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal7_assign_obj_to_prototypes/js/person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+            <state line="15" column="74" selection-start="280" selection-end="280" vertical-scroll-proportion="0.21994135">
               <folding />
             </state>
           </provider>
@@ -73,8 +77,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/goal7_assign_obj_to_prototypes/js/person.js" />
         <option value="$PROJECT_DIR$/goal7_assign_obj_to_prototypes/js/main.js" />
+        <option value="$PROJECT_DIR$/goal7_assign_obj_to_prototypes/js/person.js" />
       </list>
     </option>
   </component>
@@ -230,18 +234,22 @@
       <created>1379957831733</created>
       <updated>1379957831733</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="begining code for main.js">
+      <created>1379958615637</created>
+      <updated>1379958615637</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="830" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -318,6 +326,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/goal7_assign_obj_to_prototypes/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="119" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/goal7_assign_obj_to_prototypes/object.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -327,14 +342,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal7_assign_obj_to_prototypes/js/person.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goal7_assign_obj_to_prototypes/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="977" selection-end="977" vertical-scroll-proportion="1.0117302">
+        <state line="15" column="74" selection-start="280" selection-end="280" vertical-scroll-proportion="0.21994135">
           <folding />
         </state>
       </provider>
