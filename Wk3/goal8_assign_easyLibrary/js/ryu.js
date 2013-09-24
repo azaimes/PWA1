@@ -17,12 +17,12 @@ anchorLib.prototype = {
 	elements: [],
 
 	eachElem: function (callback) {
-		for (var i = 0, max = this.elements.length; i < max; i++) {
+		for (var i = 0, max = this.elements.length; i < max; i++) {      //for loop
 			callback.call(this.elements[i]);
-			this.elements[i].style.backgroundColor = "grey";
+			this.elements[i].style.backgroundColor = "grey";             //changes the bg color of the links to grey
 			console.log('in for loop: '+this.elements[i]);
 
-			this.elements[i].onclick = function (e) {
+			this.elements[i].onclick = function (e) {                     //onclick event to console the link
 				console.log('in for loop onclick: '+this.getAttribute('href'));
 
 				e.preventDefault();
