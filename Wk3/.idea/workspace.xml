@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goal8_assign_easyLibrary/js/main.js" afterPath="$PROJECT_DIR$/goal8_assign_easyLibrary/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goal8_assign_easyLibrary/js/ryu.js" afterPath="$PROJECT_DIR$/goal8_assign_easyLibrary/js/ryu.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Wk3.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" time="1379989594759" ignored="false" />
+    <file path="/Dummy.txt" changelist="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" time="1379989983024" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../test wk3/js/person.js" changelist="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" time="1379885541004" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../test wk3/js/main.js" changelist="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" time="1379885464335" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../test wk3/object.html" changelist="e3aa3719-c0d8-43f2-b761-e1b1285eabe5" time="1379885328473" ignored="false" />
@@ -34,10 +34,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal8_assign_easyLibrary/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="37" selection-start="380" selection-end="380" vertical-scroll-proportion="0.37335286">
+            <state line="17" column="37" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -45,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ryu.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ryu.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal8_assign_easyLibrary/js/ryu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="25" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+            <state line="12" column="50" selection-start="173" selection-end="173" vertical-scroll-proportion="0.2635432">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -103,8 +103,8 @@
       <list>
         <option value="$PROJECT_DIR$/goal7_assign_obj_to_prototypes/js/person.js" />
         <option value="$PROJECT_DIR$/goal7_assign_obj_to_prototypes/js/main.js" />
-        <option value="$PROJECT_DIR$/goal8_assign_easyLibrary/js/ryu.js" />
         <option value="$PROJECT_DIR$/goal8_assign_easyLibrary/js/main.js" />
+        <option value="$PROJECT_DIR$/goal8_assign_easyLibrary/js/ryu.js" />
       </list>
     </option>
   </component>
@@ -294,7 +294,11 @@
       <created>1379989602287</created>
       <updated>1379989602287</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="main.js">
+      <created>1379989932238</created>
+      <updated>1379989932238</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -362,7 +366,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="main.js" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -381,6 +385,7 @@
     <MESSAGE value="corrected typo in person.js causing an error" />
     <MESSAGE value="corrected code that was showing null for innerHTML, missed a ;" />
     <MESSAGE value="initial commit" />
+    <MESSAGE value="main.js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -449,18 +454,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goal8_assign_easyLibrary/js/ryu.js">
+    <entry file="file://$PROJECT_DIR$/goal8_assign_easyLibrary/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+        <state line="17" column="37" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goal8_assign_easyLibrary/js/main.js">
+    <entry file="file://$PROJECT_DIR$/goal8_assign_easyLibrary/js/ryu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="37" selection-start="380" selection-end="380" vertical-scroll-proportion="0.37335286">
+        <state line="12" column="50" selection-start="173" selection-end="173" vertical-scroll-proportion="0.2635432">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
