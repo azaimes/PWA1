@@ -38,7 +38,17 @@ console.log("start canvas");
 		}
 	}
 
-
+	var drawChartText = function(){
+		ctx.font="20px Georgia";
+		ctx.fillStyle = "rgb(255,255,255)";
+		ctx.fillText("TEST GRADES", 30, 30);
+		var xAxisData =["Quiz 1", "Quiz 2", "Quiz 3", "Quiz 4"];
+		ctx.font = "14px Georgia";
+		ctx.fillStyle= "rgb(0,0,0)";
+		for(var i= 0,max=xAxisData.length;i<max; i++){
+			ctx.fillText(xAxisData[i],i*80+95,290);
+		}
+	}
 
 
 
