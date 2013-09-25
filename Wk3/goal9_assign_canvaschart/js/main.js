@@ -1,5 +1,5 @@
 /**
- * Created by:
+ * Created by: Adam Zaimes
  * Class: PWA1
  * Goal: Goal9
  */
@@ -7,7 +7,7 @@
 console.log("start canvas");
 
 (function(){
-	var canvas = document.createElement("canvas");
+	var canvas = document.createElement("canvas");   //creates canvas html
 	document.body.appendChild(canvas);
 	var ctx = canvas.getContext('2d');
 	canvas.width = 400;
@@ -23,7 +23,7 @@ console.log("start canvas");
 		drawBars();
 	}, false);
 
-	var drawBars = function(){
+	var drawBars = function(){                 //draws bars
 		ctx.font = "14px Georgia";
 		for(var i = 0, maxdata = chartData.length; i<maxdata; i++){
 		ctx.fillStyle = "rgba(100,200,200,0.75)";
@@ -36,9 +36,9 @@ console.log("start canvas");
 
 
 		}
-	}
+	};
 
-	var drawChartText = function(){
+	var drawChartText = function(){          //add text to chart
 		ctx.font="20px Georgia";
 		ctx.fillStyle = "rgb(255,255,255)";
 		ctx.fillText("TEST GRADES", 30, 30);
