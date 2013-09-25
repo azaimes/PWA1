@@ -45,7 +45,7 @@ console.log("start canvas");
 		var xAxisData = ["Quiz 1", "Quiz 2", "Quiz 3", "Quiz 4"];
 		ctx.font = "14px Georgia";
 		ctx.fillStyle = "rgb(0,0,0)";
-		for (var i = 0, max = xAxisData.length; i < max; i++) {
+		for (var i = 0, max = xAxisData.length; i < max; i++) { //for loop to loop through the axis array
 			ctx.fillText(xAxisData[i], i * 80 + 95, 290);
 		}
 	}
